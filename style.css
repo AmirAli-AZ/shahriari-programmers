@@ -6,6 +6,9 @@ body {
   text-align: right;
   float: right;
   direction: rtl;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
 }
 .header{
   padding: 35px;
@@ -30,3 +33,17 @@ body {
 a{
   color : #039dfc;
 }
+@keyframes fadeInAnimation { 
+    0% { 
+
+      opacity: 0; 
+
+    } 
+
+    100% { 
+
+      opacity: 1; 
+
+    } 
+
+ }
