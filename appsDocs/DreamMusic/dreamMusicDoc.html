@@ -86,9 +86,14 @@
     </p>
     <p>see releases and download latest version</p>
     <div style="text-align: center; margin-top: 30px">
-      <button id="btn" onclick="location.href = 'https://github.com/AmirAli-AZ/Dream_Music/releases';">Releases</button>
+      <button id="btn" onclick="openInNewTab('https://github.com/AmirAli-AZ/Dream_Music/releases');">Releases</button>
     </div>
   </div>
+  <script>
+    function openInNewTab(url){
+      window.open(url , '_blank').focus();
+    }
+  </script>
 </body>
 
 </html>
